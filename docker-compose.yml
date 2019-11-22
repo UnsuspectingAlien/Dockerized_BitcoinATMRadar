@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myfirstdockerapp:
+    build: .
+    ports:
+      - "1111:5000"
+  #redis:
+   #image: "redis:alpine"
